@@ -1,6 +1,6 @@
 import { browser, element, by } from 'protractor';
 
-export class RenduPage {
+export class ListTodosPage {
   navigateTo() {
     return browser.get('/');
   }

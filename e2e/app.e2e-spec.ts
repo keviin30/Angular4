@@ -1,10 +1,10 @@
-import { RenduPage } from './app.po';
+import { ListTodosPage } from './app.po';
 
-describe('rendu App', function() {
-  let page: RenduPage;
+describe('list-todos App', function() {
+  let page: ListTodosPage;
 
   beforeEach(() => {
-    page = new RenduPage();
+    page = new ListTodosPage();
   });
 
   it('should display message saying app works', () => {
